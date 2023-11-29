@@ -41,7 +41,7 @@ def apply_filter(img, filter_type, size):
         return img
 
 def main():
-    st.title('Image Filtering & Operations')
+    st.title('Image MAnipulation')
 
     # Upload image
     image_file = st.file_uploader("Choose and upload an image", type=['jpg', 'jpeg', 'png'])
